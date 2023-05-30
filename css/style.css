@@ -1,0 +1,36 @@
+:root {
+  --site-font: ;
+  --text-color: ;
+  --white-color: ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  font-family: ;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  display: inline-block;
+}
